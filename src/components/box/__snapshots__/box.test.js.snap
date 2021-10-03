@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 2 1`] = `
+<button
+  data-testid="box"
+  style={
+    Object {
+      "cursor": "pointer",
+      "fontSize": "40px",
+      "styleborder": "3px solid black",
+    }
+  }
+>
+  Pavan
+</button>
+`;
+
+exports[`matches snapshow 1`] = `
+<button
+  data-testid="box"
+  style={
+    Object {
+      "cursor": "pointer",
+      "fontSize": "40px",
+      "styleborder": "3px solid black",
+    }
+  }
+>
+  Refresh
+</button>
+`;

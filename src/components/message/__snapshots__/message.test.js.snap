@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 2 1`] = `
+<div
+  data-testid="button"
+>
+  <h1
+    name="msg"
+    style={
+      Object {
+        "display": "grid",
+        "fontSize": "20px",
+        "fontWeight": "800",
+        "margin": "10px auto",
+        "textAlign": "center",
+        "width": "300px",
+      }
+    }
+  >
+    Pavan
+  </h1>
+</div>
+`;
+
+exports[`matches snapshow 1`] = `
+<div
+  data-testid="button"
+>
+  <h1
+    name="msg"
+    style={
+      Object {
+        "display": "grid",
+        "fontSize": "20px",
+        "fontWeight": "800",
+        "margin": "10px auto",
+        "textAlign": "center",
+        "width": "300px",
+      }
+    }
+  >
+    Hi
+  </h1>
+</div>
+`;
