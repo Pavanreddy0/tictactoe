@@ -92,7 +92,7 @@ class Game extends React.Component {
         <Message value={this.state.message} />
         <Board onClick={this.handleChange} value={this.state.board} />
         <Button onClick={this.handleUndo} value="Undo Move" />
-        <Button onClick={this.reset} value="Refresh" />
+        <Button onClick={this.reset} value="Reset Game" />
       </div>
     );
   }
