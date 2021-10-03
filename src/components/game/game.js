@@ -39,7 +39,8 @@ class Game extends React.Component {
     const board = Array(9).fill("");
     const message = "Click on the grid to Start";
     const player = "X";
-    this.setState({ board, message, player });
+    const moves = [];
+    this.setState({ board, message, player, moves });
   };
 
   // Function to handle the undo of the move that was made by player
